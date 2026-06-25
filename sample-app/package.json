@@ -1,0 +1,20 @@
+{
+  "name": "launchpad-sample-app",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Deliberately-broken Lovable + Supabase app — the T-102 repair demo for Thirty Labs Autopilot",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-router-dom": "^6.26.0"
+  },
+  "devDependencies": {
+    "vite": "^5.4.0"
+  }
+}

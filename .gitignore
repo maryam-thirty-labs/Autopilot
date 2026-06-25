@@ -1,0 +1,30 @@
+# ── secrets — never commit ──
+.env
+.env.*
+!.env.example
+!.env.local.example
+!**/.env.example
+!**/.env.local.example
+**/.env
+**/.env.local
+**/.env.*.local
+
+# ── dependencies / build ──
+node_modules/
+**/node_modules/
+.next/
+**/.next/
+dist/
+build/
+**/.vercel/
+
+# ── python / modal ──
+__pycache__/
+*.pyc
+.venv/
+
+# ── os / editor ──
+.DS_Store
+*.log
+.idea/
+.vscode/
