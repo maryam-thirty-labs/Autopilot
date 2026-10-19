@@ -1,4 +1,4 @@
-# Thirty Labs — Autopilot
+# Autopilot
 
 An autonomous repair desk for broken AI-built apps (Lovable, Bolt, Cursor, v0, Supabase).
 Next.js on Vercel · Supabase as the single source of truth · Modal for sandboxed checks ·
